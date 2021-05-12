@@ -1,0 +1,5 @@
+yum install httpd -y 
+service httpd start 
+chkconfig httpd on 
+cd /var/www/html
+echo "<html><body bgcolor='yellow'><h1>This is web server 01</h1></body></html>" > index.html
